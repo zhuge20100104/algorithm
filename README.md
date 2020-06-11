@@ -10,3 +10,4 @@
 - [插入排序递归算法](insertsort/)
 - [汉诺塔](hannota/)
 - [二分查找](binsearch/)
+- [希尔排序](shersort)
