@@ -11,3 +11,4 @@
 - [汉诺塔](hannota/)
 - [二分查找](binsearch/)
 - [希尔排序](shersort)
+- [顺序查找与二分查找性能比较](compareper/)
