@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"time"
+
+	"github.com/zhuge20100104/algorithm/compareper/utils"
 )
 
 const (
@@ -51,14 +53,12 @@ func main() {
 	// 二分查找性能
 	start := time.Now()
 	index := BinSearch(arr, 0, len(arr)-1, target)
-	duration := time.Since(start).Nanoseconds()
-	fmt.Printf("Binary Search耗时 %v 纳秒\n", duration)
+	utils.U.PrintTimeDiffMS(&start)
 	fmt.Println("元素索引为", index)
 
 	// 顺序查找性能
 	start = time.Now()
 	index = SeqSearch(arr, target)
-	duration = time.Since(start).Nanoseconds()
-	fmt.Printf("Seq Search耗时 %v 纳秒\n", duration)
+	utils.U.PrintTimeDiffMS(&start)
 	fmt.Println("元素索引为", index)
 }
