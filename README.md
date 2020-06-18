@@ -20,4 +20,5 @@
 - [高效的求a的n次幂的算法](poweran/)
 - [快速排序](quicksort/)
 - [双向扫描法的快速排序](quicksort1/)
-- [有相同元素值的快速排序 三分法](quicksort2)
+- [有相同元素值的快速排序 三分法](quicksort2/)
+- [工程实践中的其他优化 三点中值法](quicksort3/)
